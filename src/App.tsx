@@ -1,5 +1,6 @@
 import React from 'react';
-import { Funciones } from './typescript/Funciones';
+import { Contador } from './components/Contador';
+/* import { Funciones } from './typescript/Funciones'; */
 /* import { ObjectosLierales } from './typescript/ObjectosLierales'; */
 //import { TiposBasicos } from './typescript/TiposBasicos';
 
@@ -12,8 +13,8 @@ const App = () =>{
       <hr/>
      {/*  <TiposBasicos/> */}
      {/* <ObjectosLierales/> */}
-     <Funciones/>
-
+     {/* <Funciones/> */}
+      <Contador/>
     </div>
     </>
   )
