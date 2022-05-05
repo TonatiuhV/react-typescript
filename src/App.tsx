@@ -1,5 +1,6 @@
 import React from 'react';
-import { Contador } from './components/Contador';
+import { ContadorConHook } from './components/ContadorConHook';
+/* import { Contador } from './components/Contador'; */
 /* import { Funciones } from './typescript/Funciones'; */
 /* import { ObjectosLierales } from './typescript/ObjectosLierales'; */
 //import { TiposBasicos } from './typescript/TiposBasicos';
@@ -14,7 +15,8 @@ const App = () =>{
      {/*  <TiposBasicos/> */}
      {/* <ObjectosLierales/> */}
      {/* <Funciones/> */}
-      <Contador/>
+     {/*  <Contador/> */}
+     <ContadorConHook/>
     </div>
     </>
   )
