@@ -2,7 +2,7 @@ import { useUsuarios } from "../hooks/useUsuarios"
 import { Usuario } from "../interfaces/reqRes"
 
 export const Usuarios = () => {
-      const {usuarios, cargarUsuarios} = useUsuarios()
+      const {usuarios, paginaAnterior, paginaSiguiente} = useUsuarios()
 
 
 
@@ -38,8 +38,14 @@ return (
                 }
             </tbody>
         </table>
+
         <button className='btn btn-primary'
-            onClick={cargarUsuarios}>
+            onClick={paginaAnterior}>
+            Anterior
+        </button>
+        &nbsp;
+        <button className='btn btn-primary'
+            onClick={paginaSiguiente}>
             Siguiente
         </button>
     </>
