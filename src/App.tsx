@@ -1,4 +1,5 @@
 import React from 'react';
+import { Formularios } from './components/Formularios';
 import { Usuarios } from './components/Usuarios';
 /* import { Login } from './components/Login'; */
 /* import { ContadorConHook } from './components/ContadorConHook'; */
@@ -6,7 +7,6 @@ import { Usuarios } from './components/Usuarios';
 /* import { Funciones } from './typescript/Funciones'; */
 /* import { ObjectosLierales } from './typescript/ObjectosLierales'; */
 //import { TiposBasicos } from './typescript/TiposBasicos';
-
 
 const App = () =>{
   return (
@@ -20,7 +20,8 @@ const App = () =>{
      {/*  <Contador/> */}
      {/* <ContadorConHook/> */}
     {/*  <Login/> */}
-      <Usuarios/>
+      {/* <Usuarios/> */}
+      <Formularios/>
     </div>
     </>
   )
